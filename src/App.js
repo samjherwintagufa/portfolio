@@ -25,6 +25,8 @@ import Box from '@mui/material/Box';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 
+import Name from './components/name';
+
 function App() {
   const name = "Sam Jherwin Tagufa";
   const [open, setOpen] = React.useState(false);
@@ -171,7 +173,7 @@ function App() {
           </Typography>
           <Typography variant="body2" color="text.secondary">
           <span className='education'>
-              <label>C# | JAVA | PYTHON | PYTHON FLASK | C++ | VB.NET</label>
+              <label>C# | JAVA | PYTHON | C++ | VB.NET</label>
               <label>HTML | CSS | JS | PHP | REACT | JQUERY | BOOTSTRAP</label>
               <label>MYSQL</label>
               
@@ -211,6 +213,7 @@ function App() {
     </Card>
         </div>
       </main>
+      <Name />
       <Footer />
     </div>
   );

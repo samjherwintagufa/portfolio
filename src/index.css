@@ -6,7 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -15,12 +14,10 @@ main{
   min-height: 70vh;
 }
 footer{
-
   min-height: 10vh;
   padding: 10px;
 }
 header{
-
   min-height: 10vh;
   padding: 10px;
   display: flex;
@@ -68,7 +65,6 @@ img{
     align-items: center;
     gap: 10px;
     margin-top: 10px;
-   
   }
   .child-div{
     width: 100%;
@@ -79,5 +75,4 @@ img{
   header{
     justify-content: center;
   }
-  
 }
